@@ -1,3 +1,14 @@
+![PyPI](https://img.shields.io/pypi/v/example-package-grumbit)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/example-package-grumbit)
+![GitHub all releases](https://img.shields.io/github/downloads/grumbit/python_packaging_example/total)
+[![GitHub license](https://img.shields.io/github/license/grumbit/python_packaging_example)](https://github.com/grumbit/python_packaging_example/blob/main/LICENSE)
+![PyPI - Implementation](https://img.shields.io/pypi/implementation/example-package-grumbit)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/example-package-grumbit)
+![PyPI - Status](https://img.shields.io/pypi/status/example-package-grumbit)
+[![GitHub issues](https://img.shields.io/github/issues/grumbit/python_packaging_example)](https://github.com/grumbit/python_packaging_example/issues)
+[![GitHub forks](https://img.shields.io/github/forks/grumbit/python_packaging_example)](https://github.com/grumbit/python_packaging_example/network)
+[![GitHub stars](https://img.shields.io/github/stars/grumbit/python_packaging_example)](https://github.com/grumbit/python_packaging_example/stargazers)
+
 # Python Packaging Example<!-- omit in toc -->
 
 This is a working example that uses a GitHub actions CI/CD workflow to test, build and upload a Python package to TestPyPi and PyPi.
