@@ -1,15 +1,15 @@
-name: 🐍 → 🧪 → 🛠 → 📦 Test, build and publish Python packages to PyPI and TestPyPI
+name: 🐍⇝🧪⇝🧰⇝📦 PyPI & TestPyPI
 
 on: push
 
 jobs:
   build-n-publish:
-    name: 🐍 → 🧪 → 🛠 → 📦 Test, build and publish Python packages to PyPI and TestPyPI
+    name: 🐍⇝🧪⇝🧰⇝📦 PyPI & TestPyPI
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@master
-    - name: Set up Python 3.9
+    - name: 🐍 Set up Python 3.9
       uses: actions/setup-python@v3
       with:
         python-version: "3.9"
@@ -41,11 +41,11 @@ jobs:
         --show-error-context
         ./src
         ./tests
-    - name: 🧪 Python testing
+    - name: 🧪 Python testing & coverage
       run: >-
         python -m
         pytest
-    - name: 🧰 Build binary wheel and source tarball
+    - name: 🧰 Build binary wheel & source tarball
       run: >-
         python -m
         build
