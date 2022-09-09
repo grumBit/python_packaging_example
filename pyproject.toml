@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "example_package_grumbit"
-version = "0.0.8"
+version = "1.0.0"
 authors = [
   { name="Graham Coster", email="bitjugglers@gmail.com" },
 ]
@@ -12,6 +12,7 @@ description = "This is a working example that uses a GitHub actions CI/CD workfl
 readme = "README.md"
 requires-python = ">=3.09"
 classifiers = [
+    "Development Status :: 5 - Production/Stable", # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
@@ -20,3 +21,4 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/grumBit/packaging_tutorial"
 "Bug Tracker" = "https://github.com/grumBit/packaging_tutorial/issues"
+"Source" = "https://github.com/grumBit/packaging_tutorial"
