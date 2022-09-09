@@ -10,7 +10,6 @@ authors = [
 ]
 description = "This is a working example that uses a GitHub actions CI/CD workflow to test, build and upload a Python package to TestPyPi and PyPi."
 readme = "README.md"
-license = { file="LICENSE" }
 requires-python = ">=3.09"
 classifiers = [
     "Programming Language :: Python :: 3",
