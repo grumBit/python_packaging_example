@@ -4,14 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "example_package_grumbit"
-version = "0.0.4"
+version = "0.0.5"
 authors = [
   { name="Graham Coster", email="bitjugglers@gmail.com" },
 ]
-description = "grumBit's example package"
+description = "This is a working example that uses a GitHub actions CI/CD workflow to test, build and upload a Python package to TestPyPi and PyPi."
 readme = "README.md"
 license = { file="LICENSE" }
-requires-python = ">=3.10"
+requires-python = ">=3.09"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
