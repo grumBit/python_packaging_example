@@ -25,7 +25,7 @@ classifiers = [
 "Source" = "https://github.com/grumBit/packaging_tutorial"
 
 [project.optional-dependencies]
-dev = { file="requirements_dev.in" }
+dev = [ { file="requirements_dev.in" } ]
 
 [tool.pytest.ini_options]
 addopts = "--cov-report html --cov-report term-missing --cov-fail-under 95"
