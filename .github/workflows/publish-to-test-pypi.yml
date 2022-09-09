@@ -1,10 +1,10 @@
-name: 🐍⇝🧪⇝🧰⇝📦 PyPI & TestPyPI
+name: PyPI 🐍↝🧪↝🧰↝📦
 
 on: push
 
 jobs:
   build-n-publish:
-    name: 🐍⇝🧪⇝🧰⇝📦 PyPI & TestPyPI
+    name: PyPI 🐍↝🧪↝🧰↝📦
     runs-on: ubuntu-latest
 
     steps:
