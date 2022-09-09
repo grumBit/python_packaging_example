@@ -14,7 +14,7 @@ When set up;
 
 - Test and upload to TestPyPi occurs when the [package version number](./pyproject.toml) is updated and a commit is made to the master branch
 - Test and upload to PyPi occurs when a [commit is tagged](#uploading-to-pypi-via-tagging)
-- The package can be installed using `pip install
+- The package can be installed using `pip install example-package-grumbit`
 
 ---
 
