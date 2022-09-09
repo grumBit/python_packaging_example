@@ -11,7 +11,6 @@ authors = [
 description = "This is a working example that uses a GitHub actions CI/CD workflow to test, build and upload a Python package to TestPyPi and PyPi."
 readme = "README.md"
 requires-python = ">=3.09"
-dependencies = []
 classifiers = [
     "Development Status :: 5 - Production/Stable", # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     "Programming Language :: Python :: 3",
@@ -23,9 +22,6 @@ classifiers = [
 "Homepage" = "https://github.com/grumBit/packaging_tutorial"
 "Bug Tracker" = "https://github.com/grumBit/packaging_tutorial/issues"
 "Source" = "https://github.com/grumBit/packaging_tutorial"
-
-[project.optional-dependencies]
-dev = [ { file="requirements_dev.in" } ]
 
 [tool.pytest.ini_options]
 addopts = "--cov-report html --cov-report term-missing --cov-fail-under 95"
