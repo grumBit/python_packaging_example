@@ -1,4 +1,4 @@
-# Example Package GrumBit<!-- omit in toc -->
+# Python Packaging Example<!-- omit in toc -->
 
 This is a working example that uses a GitHub actions CI/CD workflow to test, build and upload a Python package to TestPyPi and PyPi.
 
@@ -14,6 +14,7 @@ When set up;
 
 - Test and upload to TestPyPi occurs when the [package version number](./pyproject.toml) is updated and a commit is made to the master branch
 - Test and upload to PyPi occurs when a [commit is tagged](#uploading-to-pypi-via-tagging)
+- The package can be installed using `pip install
 
 ---
 
@@ -83,9 +84,9 @@ python3 -m twine upload --repository testpypi dist/* # Upload to TestPyPi
 cd <some new tmp directory>
 python3 -m venv .venv 
 source .venv/bin/activate
-package_name="example-package2-grumBit"
+package_name="example-package-grumBit"
 python3 -m pip install --index-url https://test.pypi.org/simple/ --pre ${package_name}  # Check the package can be installed
-python3 -c "from example_package2_grumbit import example; print(example.add_one(1))" # Check package functions
+python3 -c "from example_package_grumbit import example; print(example.add_one(1))" # Check package functions
 ```
 
 ### Uploading the package to PyPi
