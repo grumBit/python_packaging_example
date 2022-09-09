@@ -45,6 +45,7 @@ jobs:
       run: >-
         python -m
         pytest
+        --cov
     - name: 🧰 Build binary wheel & source tarball
       run: >-
         python -m
