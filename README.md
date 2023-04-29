@@ -11,6 +11,34 @@
 
 # Python Packaging Example<!-- omit in toc -->
 
+## Table of contents<!-- omit in toc -->
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+- [How-to instructions](#how-to-instructions)
+- [Background](#background)
+- [High level](#high-level)
+- [Packaging Python Projects](#packaging-python-projects)
+  - [Building the package](#building-the-package)
+  - [Uploading the package to TestPyPi](#uploading-the-package-to-testpypi)
+  - [Uploading the package to PyPi](#uploading-the-package-to-pypi)
+  - [Manually updating the package](#manually-updating-the-package)
+- [GitHub Actions CI/CD workflows](#github-actions-cicd-workflows)
+  - [Set up](#set-up)
+  - [Uploading to `TestPyPi` via commit to master](#uploading-to-testpypi-via-commit-to-master)
+  - [Uploading to `PyPi` via tagging](#uploading-to-pypi-via-tagging)
+- [Running pytest in GitHub CI/CD](#running-pytest-in-github-cicd)
+<!-- /code_chunk_output -->
+
+---
+
+## How-to instructions
+
+- To set up new projects and make releases, check out [CI/CD and PyPI releases](docs/CI_CD_and_PyPI_releases.md)
+
+## Background
+
 This is a working example that uses a GitHub actions CI/CD workflow to test, build and upload a Python package to TestPyPi and PyPi.
 
 I created this example package by working through these guides;
@@ -26,26 +54,6 @@ When set up;
 - Test and upload to TestPyPi occurs when the [package version number](./pyproject.toml) is updated and a commit is made to the master branch
 - Test and upload to PyPi occurs when a [commit is tagged](#uploading-to-pypi-via-tagging)
 - The package can be installed using `pip install example-package-grumbit`
-
----
-
-## Table of contents<!-- omit in toc -->
-
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-- [High level](#high-level)
-- [Packaging Python Projects](#packaging-python-projects)
-  - [Building the package](#building-the-package)
-  - [Uploading the package to TestPyPi](#uploading-the-package-to-testpypi)
-  - [Uploading the package to PyPi](#uploading-the-package-to-pypi)
-  - [Manually updating the package](#manually-updating-the-package)
-- [GitHub Actions CI/CD workflows](#github-actions-cicd-workflows)
-  - [Set up](#set-up)
-  - [Uploading to `TestPyPi` via commit to master](#uploading-to-testpypi-via-commit-to-master)
-  - [Uploading to `PyPi` via tagging](#uploading-to-pypi-via-tagging)
-- [Running pytest in GitHub CI/CD](#running-pytest-in-github-cicd)
-<!-- /code_chunk_output -->
 
 ---
 
